@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
   int opcao;
 
   printf("MENU PRINCIPAL \n");
