@@ -13,8 +13,7 @@ int main() {
     printf("0 - Sair\n");
     printf("Entre com uma opção => ");
     deu_certo = scanf("%i", &opcao);
-    while (getchar() != '\n')
-      ; // limpa o buffer
+    while (getchar() != '\n'); // limpa o buffer
 
     switch (opcao) {
     case 1: {
